@@ -17,7 +17,8 @@
 body
 {
 font-family: montserratregular, "Times New Roman", Arial, verdana, sans-serif;
-background-color: aliceblue;
+color: #455A64;
+background-color:#CDDC39;
 }
 
 [class*="col"]
