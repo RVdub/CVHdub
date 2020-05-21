@@ -39,36 +39,37 @@
 
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
         <!--en tête comprenant la photo d'identité,mon nom, ma qualification-->
-        <header class="row">
-            <div class="col-sm-4 my-auto">
-                <img id="ma_photo" src="images/" alt="photo_identité" title="C'est moi!" />
+        <header class="row align-items-center">
+            <div class="col-md-4 text-center bloc_photo">
+                <img id="ma_photo" src="images/HerveDubosclard.jpg" alt="photo_identité" title="C'est moi!" />
             </div>
-            <div class="col-sm-8">
-                <div class="col-sm-12">
-                    <h1><mark>HERVE</mark> DUBOSCLARD</h1>
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <h1><em>HERVE</em> DUBOSCLARD</h1>
                 </div>
-                <div class="col-sm-12">
-                    <h2>Développeur web</h2>
+                <div class="col-md-12 sous_titre">
+                    <h2><span>Dévelo</span>ppeur web</h2>
                 </div>
             </div>
 
         </header>
 
 
+
         <div class="row flex-row-reverse">
 
             <!--colonne de droite fond blanc-->
-            <section class="col-sm-8">
-                <h3><i class="fas fa-graduation-cap icone"></i> FORMATION</h3>
+            <section class="col-md-8">
+                <h3><i class="fas fa-graduation-cap icone"></i>&emsp; FORMATION</h3>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <p><i class="far fa-dot-circle icone-circle grande-icone"></i> 2020<br />&emsp; Paris</p>
+                    <div class="col-md-4">
+                        <p class="date"><i class="far fa-dot-circle icone-circle grande-icone"></i>&emsp;2020<br />&emsp;&emsp;Paris</p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8 descriptif">
                         <h4>OPENCLASSROOMS<h4>
                                 <h5>Junior Web Developer</h5>
                                 <p>Intégrer tous les éléments d’une maquette graphique en HTML5 et CSS;
@@ -81,11 +82,12 @@
                                     concevoir un site maintenable; gérer le contenu d’une base de données</p>
                     </div>
 
-                    <div class="col-sm-4">
-                        <p><i class="fas fa-circle icone-circle"></i> 1991-1994<br />&emsp; Angers-Rennes</p>
+                    <div class="col-md-4">
+                        <p class="date"><i class="fas fa-circle icone-circle"></i>&emsp;1991/94<br />&emsp;&emsp;
+                            Angers-Rennes</p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8 descriptif">
                         <h4>AGRO CAMPUS OUEST</h4>
                         <h5>Ingénieur agronome</h5>
                         <p>Spécialisation en génie de l'environnement : appréhender la complexité des
@@ -95,16 +97,14 @@
                     </div>
                 </div>
 
-
-
-                <h3><i class="fas fa-briefcase icone"></i> EXPERIENCE PROFESSIONELLE</h3>
+                <h3><i class="fas fa-briefcase icone"></i>&emsp; EXPERIENCES PROFESSIONELLES</h3>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <p><i class="far fa-dot-circle icone-circle grande-icone"></i> 2014 / 2020<br />&emsp; Brain sur
-                            Longuenée - Segré</p>
+                    <div class="col-md-4">
+                        <p class="date"><i class="far fa-dot-circle icone-circle grande-icone"></i>&emsp;2014/20
+                            <br />&emsp;&emsp;Brain sur L. - Segré</p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8 descriptif">
                         <h4>COMMUNE ERDRE EN ANJOU et SYNDICAT BASSIN DE L'OUDON<h4>
                                 <h5>Maire délégué et vice-président</h5>
                                 <p>Le maire est à la fois agent de l'Etat et exécutif de la commune, où il
@@ -115,11 +115,12 @@
                                     l’Eau.</p>
                     </div>
 
-                    <div class="col-sm-4">
-                        <p><i class="fas fa-circle icone-circle"></i> 2005 - 2012<br />&emsp; Angers</p>
+                    <div class="col-md-4">
+                        <p class="date"><i class="fas fa-circle icone-circle"></i>&emsp;2005/12<br />&emsp;&emsp;Angers
+                        </p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8 descriptif">
                         <h4>PARC ANJOU AVENTURE</h4>
                         <h5>Gérant majoritaire</h5>
                         <p>J’ai organisé l'activité et géré l'exploitation de la structure de loisirs dans
@@ -128,11 +129,12 @@
                             des personnes.</p>
                     </div>
 
-                    <div class="col-sm-4">
-                        <p><i class="fas fa-circle icone-circle"></i> 1998 - 2002<br />&emsp; Ingrandes sur Loire</p>
+                    <div class="col-md-4">
+                        <p class="date"><i class="fas fa-circle icone-circle"></i>&emsp;98/2002<br />&emsp;&emsp;
+                            Ingrandes sur Loire</p>
                     </div>
 
-                    <div class="col-sm-8">
+                    <div class="col-md-8 descriptif">
                         <h4>PEPINIERES JUMENTIER</h4>
                         <h5>Technico-commercial</h5>
                         <p>Prospection et suivi d’une clientèle de professionnels à distance ou sur place,
@@ -142,22 +144,21 @@
 
                 </div>
 
-
-                <h3><i class="fas fa-pencil-alt"></i> RECOMMANDATIONS</h3>
+                <h3><i class="fas fa-pencil-alt icone"></i>&emsp; RECOMMANDATIONS</h3>
                 <div class="row">
-                    <div class="col-sm">
-                        <p>
+                    <div class="col-md">
+                        <p class="date">
                             Nicolas VANDENBERGUE<br />
-                            Directeur associé et Consultant SI chez Effidic<br /><br />
+                            Directeur associé et Consultant SI<br />chez Effidic<br />
                             <a href="tel:+33623090793">Son téléphone</a><br />
                             <a href="mailto:nicolas.vandenbergue@gmail.com ">Son mail direct</a>
                         </p>
                     </div>
 
-                    <div class="col-sm">
-                        <p>
+                    <div class="col-md">
+                        <p class="date">
                             Yamina RIOU<br />
-                            Project Manager chez Harmonie Mutuelle (groupe Vyv)<br />
+                            Project Manager<br /> chez Harmonie Mutuelle (groupe Vyv)<br />
                             <a href="tel:+33642866912">Son téléphone</a><br />
                             <a href="mailto:yamina.riou@gmail.com">Son mail direct</a>
                         </p>
@@ -167,11 +168,10 @@
 
 
 
-
             <!--colonne colorée de gauche-->
-            <aside class="col-sm-4 text-justify d-flex flex-column">
+            <aside class="col-md-4 d-flex flex-column">
 
-                <div class="coordonnées">
+                <div>
                     <p class="titrefdnoir">CONTACT</p>
                     <address>
                         <p>Adresse<br />
@@ -183,11 +183,12 @@
                         </p>
 
                         <p>Téléphone<br />
-                            <a href="tel:+33602271190">06 02 27 11 90</a>
+                            <a href="tel:+33602271190" title="Composez directement mon numéro !">06 02 27 11 90</a>
                         </p>
 
                         <p>Courriel<br />
-                            <a href="mailto:dhcontrole@gmail.com">dhcontrole@gmail.com</a>
+                            <a href="mailto:dhcontrole@gmail.com"
+                                title="Envoyez-moi un mail de recrutement ;)">dhcontrole@gmail.com</a>
                         </p>
 
                         <p>Site web<br />
@@ -196,18 +197,23 @@
                         </p>
 
                         <p>LinkedIn<br />
-                            <!--Refaire un lien plus professionnel dans 6 mois-->
+                            <!--Refaire un lien et un réseau plus professionnel dans 6 mois-->
                             <a href="https://www.linkedin.com/" title="Mon compte LinkedIn"
                                 target="_blank">@HerveDubosclard</a>
                         </p>
 
+                        <P>
+                            <!--refaire le CV lorsque diplôme obtenu-->
+                            <a href="fichier/CVHdub.pdf" title="Version pdf du CV" download="">Téléchargez une version pdf du CV</a>
+                        </P>
+
                     </address>
                 </div>
 
-                <div class="a_propos h-100">
-                    <p class="titrefdnoir">A PROPOS DE MOI</p>
-                    <p>
-                        J'ai mis en valeur ci-contre trois expériences significatives. Mon parcours
+                <div class="h-100">
+                    <p class="titrefdnoir">À PROPOS DE MOI</p>
+                    <p class="texteapropos">
+                        J'ai mis en valeur ci-contre (ci-dessus) trois expériences significatives. Mon parcours
                         professionnel diverse, de chargé de mission à commercial, de comptable analytique
                         à professeur d’horticulture et paysage, puis de chef d’entreprise en diagnostics
                         immobiliers ou d’un parc de loisirs, aux mandats d’élus dans des collectivités,
@@ -218,13 +224,20 @@
                     </p>
                 </div>
 
-                <div class="loisirs">
+                <div>
                     <p class="titrefdnoir">LOISIRS</p>
-                    <i class="fas fa-tools"></i>
-                    <i class="fas fa-seedling"></i>
-                    <img src="images/WCS.jpg" alt="logos loisirs" title="West Coast Swing" width="25" />
-                </div>
 
+                    <div class="row justify-content-around loisirs">
+
+                        <div class="col-xs-1"><i class="fas fa-tools"></i></div>
+
+                        <div class="col-xs-1"><i class="fas fa-seedling"></i></div>
+
+                        <div class="col-xs-1"><img id="wcs" src="images/WCS.jpg" alt="logos loisirs"
+                                title="West Coast Swing" width="25" /></div>
+
+                    </div>
+                </div>
 
             </aside>
 
