@@ -42,13 +42,14 @@ span
 h1
 {
     font-size: 3em;
+    padding-left: 40px;
 }
 
 @media screen and (max-width: 430px)
 {
     h1
     {
-      font-size: 2em;
+      font-size: 2em;      
     }
 }
 
@@ -56,6 +57,7 @@ h2
 {
     font-size: 1.5em;
     font-weight: bold;
+    padding-left: 40px;
     margin-left: 4px;
 }
 
@@ -63,13 +65,8 @@ h2
 {
     h2
     {
-        margin-left: 2px;
+        margin-left: 1px;
     }
-}
-
-h1, h2, .date
-{
-    padding-left: 40px;
 }
 
 h3
@@ -81,6 +78,14 @@ h3
     margin-left: 40px;
     padding-top: 20px;  
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px)
+{
+    h3
+    {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 360px)
@@ -138,19 +143,26 @@ a:visited
         
 }
 
-.bloc_photo
+figure
 {
     background-color:#CDDC39;
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    margin-bottom: 0;
 }
 
-.sous_titre
+.mon_nom
 {
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 767px)
+{
+    .mon_nom
+    {
+        padding-top: 60px;
+    }
+}
 
 /*corps de la page: colonne de droite*/
 /**autres éléments définis dans h3, h4, h5**/
@@ -158,6 +170,15 @@ a:visited
 .date
 {
     margin-top: 20px;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .date
+    {
+        padding-left: 0;
+    }
 }
 
 .descriptif
@@ -189,9 +210,20 @@ aside
 
 address
 {
-    padding-left: 25px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+ul
+{
+    list-style-type: none;
+    margin-left: -15px;
+}
+
+li
+{
+    display: block;
+    margin-bottom: 1em;
 }
 
 .texteapropos
